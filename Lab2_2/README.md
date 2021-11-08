@@ -36,8 +36,4 @@ ArrayList<M_Simpsona> calkaS = new ArrayList<>();
 
 3.Następnie sumujemy wyniki z każdego odcinka i otrzymujemy wynik końcowy który następnie wypisujemy
 
-
-![image](https://user-images.githubusercontent.com/80325475/140801870-c7f63d67-cea2-490c-9080-4896d0b93574.png)
-
-
 Podane wyżej kroki są przeprowadzane dla każej metody.
