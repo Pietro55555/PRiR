@@ -21,3 +21,14 @@ ArrayList<M_trapezow> calkaT = new ArrayList<>();
 ArrayList<M_Simpsona> calkaS = new ArrayList<>();
 
 ```
+
+1.Następnie każdy wątek liczy w pętli całkę stwoją metodą do wcześniej obliczonego odcinka np.
+![image](https://user-images.githubusercontent.com/80325475/140801644-a5a43d76-a3c8-4ece-923b-57ef162a9589.png)
+
+2.Następnie sprawdzam czy na pewno wszystkie wątki zakończyły prace przy pomocy try catch
+![image](https://user-images.githubusercontent.com/80325475/140801717-5f13f9a2-ee07-4aa0-ba6b-2d7579e1170d.png)
+
+3.Następnie sumujemy wyniki z każdego odcinka i otrzymujemy wynik końcowy który następnie wypisujemy
+![image](https://user-images.githubusercontent.com/80325475/140801870-c7f63d67-cea2-490c-9080-4896d0b93574.png)
+
+Podane wyżej kroki są przeprowadzane dla każej metody.
