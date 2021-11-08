@@ -9,4 +9,5 @@ Całki są liczone w każdej metodzie na wątkach. Jedynymi danymi jakie musi wp
 użytkownik jest początek przedziału (a), koniec przedziału (b) oraz na ilu wątkach 
 ma się wykonywać program (n). Jak funkcje użyłem tej funkcji: 
 ![image](https://user-images.githubusercontent.com/80325475/140799284-e754d94d-5db2-4796-a604-805fa2c5f951.png). 
+
 Funkcja została zaczerpnięta ze strony http://wyznacznik.pl/calka-nieoznaczona-zadania (wzór 7)
