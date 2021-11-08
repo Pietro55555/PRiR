@@ -12,17 +12,8 @@ ma się wykonywać program (n). Jak funkcje użyłem tej funkcji:
 
 Funkcja została zaczerpnięta ze strony http://wyznacznik.pl/calka-nieoznaczona-zadania (wzór 7)
 
-Do każdej metody są tworzone listy obiektów adekwatnie do metody
-```
-ArrayList<M_prostokatow> calkaP = new ArrayList<>();
-...
-ArrayList<M_trapezow> calkaT = new ArrayList<>();
-...
-ArrayList<M_Simpsona> calkaS = new ArrayList<>();
 
-```
-
-1.Następnie każdy wątek liczy w pętli całkę stwoją metodą do wcześniej obliczonego odcinka np.
+1.Każdy wątek liczy w pętli całkę swoją metodą do wcześniej obliczonego odcinka np.
 
 
 ![image](https://user-images.githubusercontent.com/80325475/140801644-a5a43d76-a3c8-4ece-923b-57ef162a9589.png)
@@ -34,6 +25,10 @@ ArrayList<M_Simpsona> calkaS = new ArrayList<>();
 ![image](https://user-images.githubusercontent.com/80325475/140801717-5f13f9a2-ee07-4aa0-ba6b-2d7579e1170d.png)
 
 
-3.Następnie sumujemy wyniki z każdego odcinka i otrzymujemy wynik końcowy który następnie wypisujemy
+3.Na koniec sumujemy wyniki z każdego odcinka i otrzymujemy wynik końcowy który wypisujemy na ekran
+
+
+![image](https://user-images.githubusercontent.com/80325475/140802410-535d5e3a-5282-4725-a0ea-2091a158d742.png)
+
 
 Podane wyżej kroki są przeprowadzane dla każej metody.
