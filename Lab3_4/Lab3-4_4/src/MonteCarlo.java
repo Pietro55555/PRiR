@@ -23,7 +23,7 @@ public class MonteCarlo extends Thread
             double x = Math.random();
             double y = Math.random();
 
-            if (x * x + y * y <= 1)
+            if (Math.pow(x,2) + Math.pow(y,2) <= 1)
                 wewn++;
         }
         this.wynik = wewn;
