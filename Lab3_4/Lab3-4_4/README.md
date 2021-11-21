@@ -5,11 +5,11 @@ Sam kwadrat podzielne na dwa wątki, każdy z nich to połowa kwadrata.
 
 Po utworzeniu obiektu MonteCarlo (wątku) uruchamiamy wątki oraz dodajemy je do kolejki
 
-![image](https://user-images.githubusercontent.com/80325475/142776526-42c2abbf-8857-4721-a927-706a1a02c01e.png)
+![image](https://user-images.githubusercontent.com/80325475/142776820-cf381d0c-621a-44df-99ad-dbeed053841c.png)
 
 Następnie obliczamy i otrzymujemy pole koła
 
-![image](https://user-images.githubusercontent.com/80325475/142776569-a94841df-fa58-492c-ba8a-33953f574f82.png)
+![image](https://user-images.githubusercontent.com/80325475/142776835-234e6807-6832-4962-a7de-91100d9d5278.png)
 
 
 W pliku MonteCarlo tworzymy klase o tej samej nazwie która przyjmuje punkt początkowy i punkt końcowy
