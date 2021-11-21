@@ -44,7 +44,7 @@ public class Samochod extends Thread {
                 if(paliwo <= 0 || paliwo >this.pojZbiornika)
                 {
                     System.out.println("Maluch o numerach "+nrRej+" nie może dalej kontynuować jazdy");
-                    this.dziala=false;
+                    this.stopp();
                 }
                 else
                 {
