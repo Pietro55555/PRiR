@@ -12,4 +12,11 @@ Następnie obliczamy i otrzymujemy pole koła
 ![image](https://user-images.githubusercontent.com/80325475/142776835-234e6807-6832-4962-a7de-91100d9d5278.png)
 
 
-W pliku MonteCarlo tworzymy klase o tej samej nazwie która przyjmuje punkt początkowy i punkt końcowy
+W pliku MonteCarlo tworzymy klase o tej samej nazwie która przyjmuje punkt początkowy i punkt końcowy oraz ilość punktów które wypłyną na precyzje wyniku.
+
+![image](https://user-images.githubusercontent.com/80325475/142776870-a86a3328-eec2-480d-969d-89f3b7e7b8af.png)
+
+Następnie losowo rzucamy punkty i jeśli punkt znajduje się w okręgu to do wyniku dodajemy jeden. Następnie wynik zwracamy
+
+![image](https://user-images.githubusercontent.com/80325475/142776897-5d417049-d964-4453-b331-b46ef416d143.png)
+
