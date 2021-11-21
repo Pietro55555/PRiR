@@ -1,7 +1,7 @@
 Program wykonuje algorytm Monte Carlo dzięki któremu możemy policzyć pole okręgu wpisanego w kwadra. W programie liczymy pole koła w kwadracie 2 x 2.
 Sam kwadrat podzielne na dwa wątki, każdy z nich to połowa kwadrata.
 
-![image](https://user-images.githubusercontent.com/80325475/142776491-d7493c14-d132-4012-948e-3971de0addd1.png)
+![image](https://user-images.githubusercontent.com/80325475/142776797-43c9456e-2279-49e0-ac3a-09a42c37a758.png)
 
 Po utworzeniu obiektu MonteCarlo (wątku) uruchamiamy wątki oraz dodajemy je do kolejki
 
