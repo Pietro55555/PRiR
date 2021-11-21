@@ -20,7 +20,7 @@ public class Main
             System.out.print(e);
         }
         pole=monte1.getWynik()+monte2.getWynik();
-        pole=(pole/((double)n*4))*(2*2);
+        pole=(pole/((double)n*2))*(2*2);
 
         System.out.println("Pole kola wpisanego w kwadrat wynosi:  "+pole);
     }
