@@ -4,8 +4,8 @@ public class Main
     {
         int n = 5;
         double pole=0;
-        MonteCarlo monte1 = new MonteCarlo(0,0, 0, 2, n);
-        MonteCarlo monte2 = new MonteCarlo(2,0, 2, 2, n);
+        MonteCarlo monte1 = new MonteCarlo(0,0, 1, 1, n);
+        MonteCarlo monte2 = new MonteCarlo(1,1, 2, 2, n);
 
         monte1.run();
         monte2.run();
