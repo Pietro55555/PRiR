@@ -1,1 +1,1 @@
-.
+Program działa jak czasomierz czyli od momentu włączenia programu odlicza czas. gdy sekundy dojdą do 60, zostaje dodana jedna minuta a następnie sekundy znów są liczone od 0. Podonie jak z  sekundami gdy minuty osiagnął 60 zostaje dodana jedna godzina i minuty są liczone od 0. Program został stworzony przy pomocy wątku. W main znajduje się jedynie wywołanie obiektu czasomierz oraz włącznie go. Klasa czasomierz odmierza tylko czas.
