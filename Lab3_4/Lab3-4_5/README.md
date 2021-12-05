@@ -14,3 +14,10 @@ następnie uruchamiamy wątki komendą run i je kolejkujemy oraz na koniec zapis
 
 ![image](https://user-images.githubusercontent.com/80325475/144758943-8197b2f7-f547-4dc1-bfd5-ee524fe22dc3.png)
 
+Klasa Negatyw przyjmuje obraz początkowy, punkty x z którego startuje i kończy oraz punkty y z których zaczyna i kończy
+
+![image](https://user-images.githubusercontent.com/80325475/144759019-bc426232-de56-4da4-b879-082742a2b5e4.png)
+
+Następnie nadpisuje funkcje run tak aby po uruchomienu wątku wykonywał się negatyw piksela w ten sposób że od 255 odejmujemy wartość atrybut R , G i B pixela i następnie nadpisujemy wprowadzone zdjęcie.
+
+![image](https://user-images.githubusercontent.com/80325475/144759135-96eff5e9-9be3-4ab4-985c-3c3ba47bba61.png)
