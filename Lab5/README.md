@@ -16,3 +16,13 @@ Następnie możemy zauważyć funkcje która liczy całkę przy pomocy metody Kw
 ![image](https://user-images.githubusercontent.com/80325475/144883107-30ae8b92-fbe0-40da-bd29-793937c40f7b.png)
 
 Wartości dla przedziałów zaczerpnąłem z https://www.fuw.edu.pl/~jnareb/zajecia/int-gauss.pdf (strona 5)
+
+Następnie znajduje się funkcja której zadanie jest policzenie wartości całki przy pomocy metody trapezów
+
+![image](https://user-images.githubusercontent.com/80325475/144883877-f946873f-6d36-4f14-877c-3434e79fde17.png)
+
+W main użytkownik jest proszony o podanie p czyli ilość procesów potomnych. Następnie w pętli sprwadzamy dla każdego procesu czy fork jest równe 0. Jeśli jest równe -1 to wtedy pętla wyrzuci komunikat o błędzie. Gdy fork jest równy 0 ustawiamy ziarno w zależności od czasu oraz losujemy końce przedziału czyli a i b oraz n. Następnie  wypisujemy wartości zmiennych które wylosowaliśmy, PID procesu oraz wynik obu metod tylko że przed gaussem znów losujemy n
+
+![image](https://user-images.githubusercontent.com/80325475/144884884-cb37a052-62c2-4595-bb36-d9d9df04bcf1.png)
+
+
