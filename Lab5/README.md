@@ -15,4 +15,4 @@ Następnie możemy zauważyć funkcje która liczy całkę przy pomocy metody Kw
 
 ![image](https://user-images.githubusercontent.com/80325475/144883107-30ae8b92-fbe0-40da-bd29-793937c40f7b.png)
 
-Wartości dla przedziałów zaczerpnąłem z [(https://www.fuw.edu.pl/~jnareb/zajecia/int-gauss.pdf)]
+Wartości dla przedziałów zaczerpnąłem z https://www.fuw.edu.pl/~jnareb/zajecia/int-gauss.pdf (strona 5)
