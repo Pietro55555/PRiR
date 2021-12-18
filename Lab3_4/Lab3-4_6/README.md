@@ -17,4 +17,7 @@ Metoda Run() ustawia odpowiednie współrzędne dla odpowiedniego wątka.
 ![image](https://user-images.githubusercontent.com/80325475/146651334-d81e1694-2e5b-4879-90a8-8373b67b59a2.png)
 ![image](https://user-images.githubusercontent.com/80325475/146651342-efcff64a-5aed-43a5-8696-b95dc14a22b5.png)
 
+Klasa Complex jest to klasa liczb zespolonych która posiada funkcje dodawanie do liczby zespolonej(add), modułu z liczby zespolonej(mod) oraz podnoszenia do kwadratu liczby zespolonej(pow2)
+
+![image](https://user-images.githubusercontent.com/80325475/146651409-170bf892-efd8-450e-afbf-827ab5e15dce.png)
 
