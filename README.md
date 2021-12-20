@@ -10,3 +10,5 @@ Lab3_4 - zawiera wszystkie zadania z Lab3-4 (nazewnictwo folderu powinno być La
 Lab5   - zadania z Lab5
 
 Lab6   - zadanie z lab6
+
+Lab7   - zadanie z lab7
