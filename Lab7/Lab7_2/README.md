@@ -143,6 +143,10 @@ następnie alokujemy tablice Integerów w pamięci oraz wykonujemy pętle która
         }
     }
     `
- ####### Nie było mozliwe wklejenie ss przez dlugosc pętli więc wstawiłem tutaj całą pętle
+######(Nie było mozliwe wklejenie ss przez dlugosc pętli więc wstawiłem tutaj całą pętle)
+
+Na koniec oczyszczamy pamięc by nie zostawić za sobą bałaganu i kończymy MPI
+
+![image](https://user-images.githubusercontent.com/80325475/146826892-00608e90-4460-4436-befd-db707247d55a.png)
     
     
