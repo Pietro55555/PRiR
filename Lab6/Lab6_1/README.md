@@ -8,3 +8,6 @@ Na początku maina oprócz stworzenia zmiennych, tworzymy dane o statusie (MPI_S
 ![image](https://user-images.githubusercontent.com/80325475/146812512-416a3701-3095-4828-94db-2507a1ad9c39.png)
 
 Pierwszy proces ma za zadanie wysłać zmienną wynik(MPI_Send) a pozostałe procesy mają ją odebrać i policzyć pi ze wzoru Leibnitza oraz ostatni proces ma dodatkowe zadanie czyli wypisanie którym jest procesem i jakie PI otrzymał. Na końcu zakańczamy program i środowisko MPI (MPI_Finalize)
+
+![image](https://user-images.githubusercontent.com/80325475/146813596-be0320ca-6b3b-47c1-85cc-1a82aeeb7b27.png)
+
