@@ -32,7 +32,7 @@ Przy pomocy pythona wygenerowałem wykres ukazujący róznice między cpu a gpu
 Kod:
 ```
 from matplotlib.legend_handler import HandlerLine2D
-
+import matplotlib.pyplot as plt
 line1, = plt.plot([28.236, 31.091, 28.522, 29.760,28.731,27.855], marker='o', label='CPU')
 line2, = plt.plot([19.072, 15.190, 16.230, 15.087,14.454,14.802], marker='o', label='GPU')
 plt.title("CPU vs GPU")
@@ -42,3 +42,25 @@ plt.legend(handler_map={line1: HandlerLine2D(numpoints=1)})
 ![image](https://user-images.githubusercontent.com/80325475/149987981-8c3758c8-5729-492d-98e5-eba845a2edba.png)
 
 Na wykresie widać że gpu jest o wiele szybsze i osiągnęło lepszy czas wykonania programu
+
+**Przykład 2**
+
+Program z przykładu 2 ma za zadanie zmienić zdjęcie pod kolorystyke i styl podobny do Hotline Miami czyli jaskrawe kolory, róże itp. Efekt otrzymuje dzieki i podzielonego przez 10 dodanym do niego i podzielone przez j od całej sumy odejmujemy wartość piksela.I jest to aktualna wysokośc piksel a j szerokość na której leży piksel
+
+```
+	int i,j;
+	for(i = 0; i < height; i++)
+ {
+	     for(j = 0; j < width; j++)
+       {                   
+		    	newimageData[i*width + j] = (i/10+i/j) - imageData[i*width + j]; 
+					newimageData[i*width + j] = (j/10+i/j) - imageData[i*width + j]; 
+		   }   
+	}
+```
+
+Następnie podobnie jak w poprzednim przykładzie tworze wykres ukazujący różnicę między cpu a gpu
+
+![image](https://user-images.githubusercontent.com/80325475/149995775-42f9e607-e6bb-4533-8cc9-1924ce0c989d.png)
+
+Wniosek jest taki sam jak w poprzednm przykładzie czyli gpu jest o wiele szybsze niż cpu
