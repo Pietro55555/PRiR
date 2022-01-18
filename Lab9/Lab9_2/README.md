@@ -58,6 +58,10 @@ Program z przykładu 2 ma za zadanie zmienić zdjęcie pod kolorystyke i styl po
 		   }   
 	}
 ```
+Zdjęcie po: 
+
+![image](https://user-images.githubusercontent.com/80325475/149995981-5de82016-df90-4761-b895-48b04bbac6f7.png)
+
 
 Następnie podobnie jak w poprzednim przykładzie tworze wykres ukazujący różnicę między cpu a gpu
 
