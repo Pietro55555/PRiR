@@ -3,9 +3,6 @@
 #include<stdlib.h>
 #include<time.h>
 
-/////////////
-////CPU//////
-/////////////
 
 
 int main()
@@ -80,9 +77,6 @@ int main()
 #include<stdlib.h>
 #include<time.h>
 
-///////////////
-/////GPU///////
-///////////////
 
 __device__ unsigned char* newimageData;
 
