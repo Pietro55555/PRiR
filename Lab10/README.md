@@ -12,3 +12,7 @@ Czerwone - GPU
 Niebieskie - CPU
 
 ```
+
+Z powyższych danych moge wywnioskowć że wraz z liczbą procesów ( w naszym przyadku przedziałów (n) ) CPU zaczyna spowalniać bardzo szybko, w przeciwieństwie do GPU w którym wzrósł czas pracy ale bardzo mało i nie ma szansy przeciąć krzywej CPU. Lecz też trzeba zauważyć że dla mniejszej liczby przedziałów (np. n=100000) cp poradziło sobie lepiej.
+**Wniosek**
+Jeśli chcemy wykonywać małe procesy o małej liczbie powtórzeń(wykonań) i obliczeń to dobrze się do tego nada CPU, lecz do większych i bardziej skomplikowanych programów GPU jest niezbędne jeśli chcemy usprawnić działanie kolosalnych programów obliczeniowych i nie tylko.
