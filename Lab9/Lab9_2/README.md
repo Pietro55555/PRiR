@@ -41,4 +41,4 @@ plt.legend(handler_map={line1: HandlerLine2D(numpoints=1)})
 ```
 ![image](https://user-images.githubusercontent.com/80325475/149987981-8c3758c8-5729-492d-98e5-eba845a2edba.png)
 
-
+Na wykresie widać że gpu jest o wiele szybsze i osiągnęło lepszy czas wykonania programu
