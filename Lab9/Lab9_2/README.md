@@ -12,7 +12,7 @@ Może się pokazywać dzisiejsza data (18.01.2022) przy plikach ponieważ do pli
 
 O opisie zapomniałem i dodaje go dzisiaj(18.01)
 
-PRZYKŁAD 1
+**PRZYKŁAD 1**
 
 Zadaniem programu w przykładzie 1 jest zmiany zdjecia na jego negatyw. Przez ogarniczenie nałożone przez google colab nie mogłem skorzystać z zdjęcia o dużej wadze więc mój program robi negatyw 10 razy ale za każym razem wartość od której odejmujemy zmniejsza się o 15 razy numer powtórzenia negatywu czyli od 1 do 10. Dzięki takiem procesowi otrzebuje ciekawy obraz oraz czas do analizy.
 
