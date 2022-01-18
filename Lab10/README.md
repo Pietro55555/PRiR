@@ -1,9 +1,3 @@
 Program ma za zadanie obliczyć wartość całki przy pomocy metody Prostokątów, Trapezów oraz Simpsona. W tym programie skupiam się na czasie wykonania zadania
 
-N	Prostokatow CPU	Trapezow CPU	Simpsona CPU	ProstokatowGPU	TrapezowGPU	SimpsonGPU
-100000	0.00999600 	0.00999600 	0.01924500 	0.238976	0.0143686	0.0245581
-1000000	0.09731800 	0.09731800 	0.16551000 	0.140485	0.091869	0.147295
-10000000	0.84517000 	0.84517000 	1.68702300 	0.552398	0.542813	1.36484841
-100000000	8.49108700 	8.49108700 	16.94002500 	5.92739 	5.43706 	14.5769564
-1000000000	85.95201100 	85.95201100 	170.05778000 	56.1447 	54.3248 	141.84998
 ![image](https://user-images.githubusercontent.com/80325475/150026182-68d27746-29fc-43ed-91e3-3301fe26f431.png)
