@@ -3,6 +3,10 @@
 #include<stdlib.h>
 #include<time.h>
 
+/////////////
+////CPU//////
+/////////////
+
 int main()
 {
 	clock_t start, stop; 
@@ -74,6 +78,9 @@ int main()
 #include<stdlib.h>
 #include<time.h>
 
+/////////////
+////GPU//////
+/////////////
 
 __device__ unsigned char* newimageData;
 
