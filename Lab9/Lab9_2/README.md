@@ -10,8 +10,18 @@ Może się pokazywać dzisiejsza data (18.01.2022) przy plikach ponieważ do pli
 ![image](https://user-images.githubusercontent.com/80325475/149985166-3d2995f1-d2d2-4e1b-b964-8f7be46cca2e.png)
 ![image](https://user-images.githubusercontent.com/80325475/149985220-5328cc00-8252-47b5-a1a9-65f30069807e.png)
 
-
+O opisie zapomniałem i dodaje go dzisiaj(18.01)
 
 PRZYKŁAD 1
 
-Zadaniem programu w przykładzie 1 jest zmiany zdjecia na jego negatyw. Przez ogarniczenie nałożone przez google colab nie mogłem skorzystać z zdjęcia o dużej wadze więc mój program robi negatyw 5 razy ale 
+Zadaniem programu w przykładzie 1 jest zmiany zdjecia na jego negatyw. Przez ogarniczenie nałożone przez google colab nie mogłem skorzystać z zdjęcia o dużej wadze więc mój program robi negatyw 10 razy ale za każym razem wartość od której odejmujemy zmniejsza się o 15 razy numer powtórzenia negatywu czyli od 1 do 10. Dzięki takiem procesowi otrzebuje ciekawy obraz oraz czas do analizy.
+
+Obraz który wykorzystałem:
+
+
+![image](https://user-images.githubusercontent.com/80325475/149986414-414ed2ba-c146-47ea-a0bd-08fa13920226.png)
+
+
+Obraz który otrzymałem:
+
+![image](https://user-images.githubusercontent.com/80325475/149986620-ed7a5f4a-dd68-43c6-9d5e-0517f4ab0fa6.png)
