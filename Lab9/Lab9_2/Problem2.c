@@ -54,7 +54,7 @@ int main()
 		}
   }
 
-	FILE *fo = fopen("sample_jasniej.bmp", "wb");
+	FILE *fo = fopen("sample_rozowo.bmp", "wb");
 
         fwrite(imageHeader, sizeof(unsigned char), 54, fo); 
 
@@ -84,7 +84,7 @@ int main()
 
 __device__ unsigned char* newimageData;
 
-__global__ void negatyw(int height, int width,int maxCol,unsigned char *imageData,unsigned char *newimageData)
+__global__ void rozo(int height, int width,int maxCol,unsigned char *imageData,unsigned char *newimageData)
 {
 	int i,j;
 	for(i = 0; i < height; i++)
@@ -130,11 +130,10 @@ int main()
 	   
 		
 	
- int ii,maxCol=255;
+ int ii;
  for(ii=0;ii<10;ii++)
  {
-     maxCol-=ii*15;
-		negatyw<<<1,1>>>(height,width,maxCol,imageData,newimageData);
+		rozo<<<1,1>>>(height,width,maxCol,imageData,newimageData);
 
   }
 
