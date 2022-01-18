@@ -26,4 +26,17 @@ Obraz który otrzymałem:
 
 ![image](https://user-images.githubusercontent.com/80325475/149986620-ed7a5f4a-dd68-43c6-9d5e-0517f4ab0fa6.png)
 
-Przy 6 uruchomień cpu otrzymałem takie wyniki: [28.236, 31.091, 28.522, 29.760,28.731,27.855], a przy GPU takie: [19.072, 15.190, 16.230, 15.087,14.454,14.802]
+Przy 6 uruchomień cpu otrzymałem takie czasy w sekundach: [28.236, 31.091, 28.522, 29.760,28.731,27.855], a przy GPU takie: [19.072, 15.190, 16.230, 15.087,14.454,14.802]
+
+Przy pomocy pythona wygenerowałem wykres ukazujący róznice między cpu a gpu
+Kod:
+`
+from matplotlib.legend_handler import HandlerLine2D
+
+line1, = plt.plot([28.236, 31.091, 28.522, 29.760,28.731,27.855], marker='o', label='CPU')
+line2, = plt.plot([19.072, 15.190, 16.230, 15.087,14.454,14.802], marker='o', label='GPU')
+plt.title("CPU vs GPU")
+plt.ylabel("Time(s)")
+plt.legend(handler_map={line1: HandlerLine2D(numpoints=1)})
+`
+![image](https://user-images.githubusercontent.com/80325475/149987751-57a247e5-7af2-4ea5-b107-c65ccd28499e.png)
