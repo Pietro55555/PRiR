@@ -39,4 +39,5 @@ plt.title("CPU vs GPU")
 plt.ylabel("Time(s)")
 plt.legend(handler_map={line1: HandlerLine2D(numpoints=1)})
 ```
-![image](https://user-images.githubusercontent.com/80325475/149987751-57a247e5-7af2-4ea5-b107-c65ccd28499e.png)
+![image](https://user-images.githubusercontent.com/80325475/149987882-c1a00f99-cfbd-4041-a81b-0404a3ca09cf.png)
+
