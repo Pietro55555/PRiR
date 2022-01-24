@@ -44,15 +44,8 @@ Takie wyniki otrzymałem przy:
 
 ![image](https://user-images.githubusercontent.com/80325475/150857532-2ad97979-cdd6-4e84-83ee-3f7577fd7c2e.png)
 
-Iteracje	Czas (s)
-200	26,92
-600	103,4
-1000	175,83
-1400	247,99
-2000	353,93
-2600	461,19
-3000	532,3
-4000	710,05
+A tak wyglądaja czasy w każdym z wyżej wymienionych wyników.
+
 ![image](https://user-images.githubusercontent.com/80325475/150858117-0b81ef63-e05a-4fa0-a489-5fe488e6b928.png)
 
 
