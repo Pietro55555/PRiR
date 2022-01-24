@@ -52,3 +52,55 @@ A tak wyglądaja czasy w każdym z wyżej wymienionych wyników.
 ![image](https://user-images.githubusercontent.com/80325475/150858773-9c143734-d2b5-4c6d-955c-50253a5444c5.png)
 
 Przerobiłem troche kod i teraz przy uruchomieniu programu algorytm zacznie od 200 iteracji, w ciągu pracy algorytmu będziemy dostawać kompunikaty o ilości iteracji oraz jakie straty przy nich mieliśmy. Na koniec iteracaji program wypisze nam ile trwała operacja, dla ilu iteracji, jak nazywa się plik z obrazem wynikowym oraz pokaże nam ten obraz. Następnie pętla zwiększy ilośc iteracji o 200 i powtórzy cały proces i tak będzie się działo aż do 4000 iteracji ale trzeba pamiętać że przy korzystaniu z google colab i GPU ukończenie całej tej pętli trwa 1 godzinę i 21 minut. Mój zmienony kod można znaleźć w pliku Lab12_13_SeriaWynikow.ipynb (Uwaga! Plik potrafi długo się ładować ok.20-30sekund)
+
+**Warstwy sieci VGG-19**
+
+Spróbuje zmienić warstwy VGG19 wybierając jedną z warstw:
+
+>Model: "vgg19"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_4 (InputLayer)        [(None, None, None, 3)]   0         
+                                                                 
+ block1_conv1 (Conv2D)       (None, None, None, 64)    1792      
+                                                                 
+ block1_conv2 (Conv2D)       (None, None, None, 64)    36928     
+                                                                 
+ block1_pool (MaxPooling2D)  (None, None, None, 64)    0         
+                                                                 
+ block2_conv1 (Conv2D)       (None, None, None, 128)   73856     
+                                                                 
+ block2_conv2 (Conv2D)       (None, None, None, 128)   147584    
+                                                                 
+ block2_pool (MaxPooling2D)  (None, None, None, 128)   0         
+                                                                 
+ block3_conv1 (Conv2D)       (None, None, None, 256)   295168    
+                                                                 
+ block3_conv2 (Conv2D)       (None, None, None, 256)   590080    
+                                                                 
+ block3_conv3 (Conv2D)       (None, None, None, 256)   590080    
+                                                                 
+ block3_conv4 (Conv2D)       (None, None, None, 256)   590080    
+                                                                 
+ block3_pool (MaxPooling2D)  (None, None, None, 256)   0         
+                                                                 
+ block4_conv1 (Conv2D)       (None, None, None, 512)   1180160   
+                                                                 
+ block4_conv2 (Conv2D)       (None, None, None, 512)   2359808   
+                                                                 
+ block4_conv3 (Conv2D)       (None, None, None, 512)   2359808   
+                                                                 
+ block4_conv4 (Conv2D)       (None, None, None, 512)   2359808   
+                                                                 
+ block4_pool (MaxPooling2D)  (None, None, None, 512)   0         
+                                                                 
+ block5_conv1 (Conv2D)       (None, None, None, 512)   2359808   
+                                                                 
+ block5_conv2 (Conv2D)       (None, None, None, 512)   2359808   
+                                                                 
+ block5_conv3 (Conv2D)       (None, None, None, 512)   2359808   
+                                                                 
+ block5_conv4 (Conv2D)       (None, None, None, 512)   2359808   
+                                                                 
+ block5_pool (MaxPooling2D)  (None, None, None, 512)   0  
