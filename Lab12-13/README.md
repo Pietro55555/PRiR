@@ -98,8 +98,9 @@ style_layer_names = [
 ]
 ```
 
-<p align="left">Początkowe warstwy</p><p align="right">Warstwy w Przykład1</p>
+<p align="left">Początkowe warstwy</p>
 
+<p align="right">Warstwy w Przykład1</p>
 ![image](https://user-images.githubusercontent.com/80325475/150857328-7d8aa91c-f8fc-413c-9c60-ecf3665a3e11.png)<p align="right">![image](https://user-images.githubusercontent.com/80325475/150869316-3c21c8fc-b858-429f-960e-df7e4a8f0dcc.png)</p>
 
 **Przykład 2**
