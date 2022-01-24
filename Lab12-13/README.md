@@ -48,4 +48,5 @@ A tak wyglądaja czasy w każdym z wyżej wymienionych wyników.
 
 ![image](https://user-images.githubusercontent.com/80325475/150858117-0b81ef63-e05a-4fa0-a489-5fe488e6b928.png)
 
+![image](https://user-images.githubusercontent.com/80325475/150858773-9c143734-d2b5-4c6d-955c-50253a5444c5.png)
 
