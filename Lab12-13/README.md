@@ -9,3 +9,39 @@ Będę chciał nałożyć styl tego zdjęcia:
 
 ![image](https://user-images.githubusercontent.com/80325475/150857070-23d2ae7b-6c76-49e3-9003-88f2691b4344.png)
 
+Takie wyniki otrzymałem przy:
+
+200 iteracji
+
+![image](https://user-images.githubusercontent.com/80325475/150857226-2be64814-493b-492c-8652-9eb3b58d8039.png)
+
+600 iteracji
+
+![image](https://user-images.githubusercontent.com/80325475/150857261-ce40dc1d-56ff-4cf4-ba4b-a8abcd8ad678.png)
+
+
+1000 iteracji
+
+![image](https://user-images.githubusercontent.com/80325475/150857328-7d8aa91c-f8fc-413c-9c60-ecf3665a3e11.png)
+
+1400 iteracji
+
+![image](https://user-images.githubusercontent.com/80325475/150857353-798cebca-782d-4219-92e3-1372d5de7f4b.png)
+
+2000 iteracji
+
+![image](https://user-images.githubusercontent.com/80325475/150857376-63bbffe2-321d-4521-9301-28aa3bc73622.png)
+
+2600 iteracji
+
+![image](https://user-images.githubusercontent.com/80325475/150857418-8b679e40-a67b-43b7-bac4-99140706e84b.png)
+
+3000 iteracji
+
+![image](https://user-images.githubusercontent.com/80325475/150857459-a69a4c9f-4fd2-4462-8921-644aad283673.png)
+
+4000 iteracji
+
+![image](https://user-images.githubusercontent.com/80325475/150857532-2ad97979-cdd6-4e84-83ee-3f7577fd7c2e.png)
+
+
