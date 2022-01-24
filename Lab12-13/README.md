@@ -98,12 +98,12 @@ style_layer_names = [
 ]
 ```
 
-<p align="left">Początkowe warstwy</p>
+Początkowe warstwy
 
 ![image](https://user-images.githubusercontent.com/80325475/150857328-7d8aa91c-f8fc-413c-9c60-ecf3665a3e11.png)
 
 
-<p align="right">Warstwy w Przykład1</p>
+Warstwy w Przykład1
 
 ![image](https://user-images.githubusercontent.com/80325475/150869316-3c21c8fc-b858-429f-960e-df7e4a8f0dcc.png)
 
@@ -123,5 +123,21 @@ Warstwy w Przykład2
 ![image](https://user-images.githubusercontent.com/80325475/150871426-aa687068-b0d3-4ac9-8dd7-d0eff52699dd.png)
 
 
+**Przykład3**
+```
+style_layer_names = [
+    "block1_pool",
+    "block2_pool",
+    "block3_pool",
+    "block4_pool",
+    "block5_pool",
+]
+```
+Początkowe warstwy
 
+![image](https://user-images.githubusercontent.com/80325475/150857328-7d8aa91c-f8fc-413c-9c60-ecf3665a3e11.png)
+
+Warstwy w Przykład3
+
+![image](https://user-images.githubusercontent.com/80325475/150872280-58ef1415-a716-47a8-8642-a662ef6acbd6.png)
 
