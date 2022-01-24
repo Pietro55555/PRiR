@@ -83,3 +83,9 @@ Spróbuje zmienić warstwy VGG19 wybierając jedną z warstw:
 >block5_conv3 (Conv2D)       (None, None, None, 512)   2359808                                                                  
 >block5_conv4 (Conv2D)       (None, None, None, 512)   2359808                                                                   
 >block5_pool (MaxPooling2D)  (None, None, None, 512)   0  
+
+**Przykład 1**
+
+```
+
+```
