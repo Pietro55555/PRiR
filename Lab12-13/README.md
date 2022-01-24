@@ -58,49 +58,28 @@ Przerobiłem troche kod i teraz przy uruchomieniu programu algorytm zacznie od 2
 Spróbuje zmienić warstwy VGG19 wybierając jedną z warstw:
 
 >Model: "vgg19"
-_________________________________________________________________
- Layer (type)                Output Shape              Param #   
-=================================================================
- input_4 (InputLayer)        [(None, None, None, 3)]   0         
-                                                                 
- block1_conv1 (Conv2D)       (None, None, None, 64)    1792      
-                                                                 
- block1_conv2 (Conv2D)       (None, None, None, 64)    36928     
-                                                                 
- block1_pool (MaxPooling2D)  (None, None, None, 64)    0         
-                                                                 
- block2_conv1 (Conv2D)       (None, None, None, 128)   73856     
-                                                                 
- block2_conv2 (Conv2D)       (None, None, None, 128)   147584    
-                                                                 
- block2_pool (MaxPooling2D)  (None, None, None, 128)   0         
-                                                                 
- block3_conv1 (Conv2D)       (None, None, None, 256)   295168    
-                                                                 
- block3_conv2 (Conv2D)       (None, None, None, 256)   590080    
-                                                                 
- block3_conv3 (Conv2D)       (None, None, None, 256)   590080    
-                                                                 
- block3_conv4 (Conv2D)       (None, None, None, 256)   590080    
-                                                                 
- block3_pool (MaxPooling2D)  (None, None, None, 256)   0         
-                                                                 
- block4_conv1 (Conv2D)       (None, None, None, 512)   1180160   
-                                                                 
- block4_conv2 (Conv2D)       (None, None, None, 512)   2359808   
-                                                                 
- block4_conv3 (Conv2D)       (None, None, None, 512)   2359808   
-                                                                 
- block4_conv4 (Conv2D)       (None, None, None, 512)   2359808   
-                                                                 
- block4_pool (MaxPooling2D)  (None, None, None, 512)   0         
-                                                                 
- block5_conv1 (Conv2D)       (None, None, None, 512)   2359808   
-                                                                 
- block5_conv2 (Conv2D)       (None, None, None, 512)   2359808   
-                                                                 
- block5_conv3 (Conv2D)       (None, None, None, 512)   2359808   
-                                                                 
- block5_conv4 (Conv2D)       (None, None, None, 512)   2359808   
-                                                                 
- block5_pool (MaxPooling2D)  (None, None, None, 512)   0  
+>_________________________________________________________________
+> Layer (type)                Output Shape              Param #   
+>=================================================================
+>input_4 (InputLayer)        [(None, None, None, 3)]   0                                                                          
+>block1_conv1 (Conv2D)       (None, None, None, 64)    1792                                                                    
+>block1_conv2 (Conv2D)       (None, None, None, 64)    36928                                                                   
+>block1_pool (MaxPooling2D)  (None, None, None, 64)    0                                                                        
+>block2_conv1 (Conv2D)       (None, None, None, 128)   73856                                                                     
+>block2_conv2 (Conv2D)       (None, None, None, 128)   147584                                                                    
+>block2_pool (MaxPooling2D)  (None, None, None, 128)   0                                                                         
+>block3_conv1 (Conv2D)       (None, None, None, 256)   295168                                                                  
+>block3_conv2 (Conv2D)       (None, None, None, 256)   590080                                                                   
+>block3_conv3 (Conv2D)       (None, None, None, 256)   590080                                                                    
+>block3_conv4 (Conv2D)       (None, None, None, 256)   590080                                                                   
+>block3_pool (MaxPooling2D)  (None, None, None, 256)   0                                                                        
+>block4_conv1 (Conv2D)       (None, None, None, 512)   1180160                                                                   
+>block4_conv2 (Conv2D)       (None, None, None, 512)   2359808                                                                   
+>block4_conv3 (Conv2D)       (None, None, None, 512)   2359808                                                                   
+>block4_conv4 (Conv2D)       (None, None, None, 512)   2359808                                                                   
+>block4_pool (MaxPooling2D)  (None, None, None, 512)   0                                                                         
+>block5_conv1 (Conv2D)       (None, None, None, 512)   2359808                                                                   
+>block5_conv2 (Conv2D)       (None, None, None, 512)   2359808                                                                   
+>block5_conv3 (Conv2D)       (None, None, None, 512)   2359808                                                                  
+>block5_conv4 (Conv2D)       (None, None, None, 512)   2359808                                                                   
+>block5_pool (MaxPooling2D)  (None, None, None, 512)   0  
