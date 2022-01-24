@@ -50,3 +50,4 @@ A tak wyglądaja czasy w każdym z wyżej wymienionych wyników.
 
 ![image](https://user-images.githubusercontent.com/80325475/150858773-9c143734-d2b5-4c6d-955c-50253a5444c5.png)
 
+Przerobiłem troche kod i teraz przy uruchomieniu programu algorytm zacznie od 200 iteracji, w ciągu pracy algorytmu będziemy dostawać kompunikaty o ilości iteracji oraz jakie straty przy nich mieliśmy. Na koniec iteracaji program wypisze nam ile trwała operacja, dla ilu iteracji, jak nazywa się plik z obrazem wynikowym oraz pokaże nam ten obraz. Następnie pętla zwiększy ilośc iteracji o 200 i powtórzy cały proces i tak będzie się działo aż do 4000 iteracji ale trzeba pamiętać że przy korzystaniu z google colab i GPU ukończenie całej tej pętli trwa 1 godzinę i 21 minut. Mój zmienony kod można znaleźć w pliku Lab12_13_SeriaWynikow.ipynb
