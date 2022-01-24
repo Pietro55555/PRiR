@@ -57,6 +57,8 @@ Przerobiłem troche kod i teraz przy uruchomieniu programu algorytm zacznie od 2
 
 Spróbuje zmienić warstwy VGG19 wybierając jedną z warstw:
 
+Wykorzystywany kod jest zapisany w pliku Lab12_13_Warstwy.ipynb
+
 >Model: "vgg19"
 >_________________________________________________________________
 > Layer (type)                Output Shape              Param #   
