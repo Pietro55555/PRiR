@@ -84,8 +84,23 @@ Spróbuje zmienić warstwy VGG19 wybierając jedną z warstw:
 >block5_conv4 (Conv2D)       (None, None, None, 512)   2359808                                                                   
 >block5_pool (MaxPooling2D)  (None, None, None, 512)   0  
 
+Wszystkie przykłady będą testowane dla 1000 iteracji
+
 **Przykład 1**
 
 ```
-
+style_layer_names = [
+    "block1_conv1",
+    "block2_conv2",
+    "block3_conv3",
+    "block4_conv4",
+    "block5_conv4",
+]
 ```
+
+<p align="left">Początkowe warstwy</p><p align="right">Warstwy w Przykład1</p>
+
+![image](https://user-images.githubusercontent.com/80325475/150857328-7d8aa91c-f8fc-413c-9c60-ecf3665a3e11.png)![image](https://user-images.githubusercontent.com/80325475/150869316-3c21c8fc-b858-429f-960e-df7e4a8f0dcc.png)
+
+
+
