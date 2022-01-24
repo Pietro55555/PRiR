@@ -1,4 +1,5 @@
 Program korzystając z systemów neuronowych (NTS) nakłada na obraz styl drugiego obrazu. Najlepsze efekty otrzymujemy jeśli obrazy w podobnym rozmiarze lub takim samym.
+
 Źródło kodu: https://keras.io/examples/generative/neural_style_transfer/
 
 W moim przykładzie na zdjęcie: 
