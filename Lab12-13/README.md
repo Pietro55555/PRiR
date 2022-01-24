@@ -114,13 +114,13 @@ style_layer_names = [
     "block2_conv1",
 ]
 ```
-<p align="left">Początkowe warstwy</p>
+Początkowe warstwy
 
-![image](https://user-images.githubusercontent.com/80325475/150870941-67ec5914-e0d8-4947-9ee2-9319f38e046b.png)
+![image](https://user-images.githubusercontent.com/80325475/150857328-7d8aa91c-f8fc-413c-9c60-ecf3665a3e11.png)
 
-<p align="right">Warstwy w Przykład1</p>
+Warstwy w Przykład2
 
-![image](https://user-images.githubusercontent.com/80325475/150869316-3c21c8fc-b858-429f-960e-df7e4a8f0dcc.png)
+![image](https://user-images.githubusercontent.com/80325475/150871426-aa687068-b0d3-4ac9-8dd7-d0eff52699dd.png)
 
 
 
