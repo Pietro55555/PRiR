@@ -35,6 +35,6 @@ otrzymujemy to:
 ![image](https://user-images.githubusercontent.com/80325475/151675564-34a8a17e-0377-45ff-a402-7a54ffd05209.png)
 
 
-Kod z którego otrzymałem ten efekt dostępny w pliku Scikit-learn.ipynb
+Kod z którego otrzymałem ten efekt jest dostępny w pliku Scikit-learn.ipynb wraz z opisami kroków wykonwywanych przez algorytm
 
 Źródło: https://scikit-learn.org/stable/auto_examples/cluster/plot_color_quantization.html#sphx-glr-auto-examples-cluster-plot-color-quantization-py
