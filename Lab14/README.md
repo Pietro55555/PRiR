@@ -9,3 +9,7 @@ Wnętrze tego modułu jest napisane w językach, które są „szybkie”. Szybk
 że te kluczowe elementy są już skompilowane wcześniej, a nie interpretowane „na żywo” jak z Pythonem bywa.
 Moduł ten powstał w roku 2007 jest ciagle rozwijany. Cały czas do kodu dokładane są nowe funkcjonalności,
 testy, naprawiany są bug-i, a cały moduł jest jeszcze dodatkowo optymalizowany.
+
+
+Jeżeli przejrzymy sobie dokumentację Scikit-Learn, zauważymy, że oferuje on zaskakująco dużo funkcjonalności związanej z uczeniem maszynowym.
+ Mamy tutaj gotowe funkcje pomagające w ewaluacji modeli i transformacji danych, wbudowane zbioray danych i funkcje pozwalające je generować. Scikit-Learn jest więc potężne i bogate w wiele możliwości.
