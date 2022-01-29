@@ -13,3 +13,26 @@ testy, naprawiany są bug-i, a cały moduł jest jeszcze dodatkowo optymalizowan
 
 Jeżeli przejrzymy sobie dokumentację Scikit-Learn, zauważymy, że oferuje on zaskakująco dużo funkcjonalności związanej z uczeniem maszynowym.
  Mamy tutaj gotowe funkcje pomagające w ewaluacji modeli i transformacji danych, wbudowane zbioray danych i funkcje pozwalające je generować. Scikit-Learn jest więc potężne i bogate w wiele możliwości.
+
+
+Scikit-Learn posiada również funkcje związane z sieciami neuronowymi, przetwarzaniem obrazu i dźwięku oraz praca z tekstem. Mimo tych możliwości i tak częściej wykorzystywana jest "konkurencja" w tych dziedzinach (np.PyTorch) ,lecz ten moduł jest często wykorezystywany przy innych bibliotekcha ponieważ, Scikit-Learn przydaje się do transformacji i tym podobnych działań, a „mięso” już jest mielone przez inne moduły. Jest więc podstawą w wielu miejscach i całkiem sensowną pomocą w innych.
+
+**PRZYKŁAD**
+Celem programu jest skwantyzowanie zdjęcie które zostanie pobrane z internetu przy podaniu URL zdjęcia.
+
+
+Nasz input:
+
+
+![image](https://user-images.githubusercontent.com/80325475/151675509-d7120274-0884-4cbb-a0e5-6f2920bdf286.png)
+
+
+
+Po skorzystaniu z Scikit-learn i skwantyzowaniu
+otrzymujemy to:
+
+
+![image](https://user-images.githubusercontent.com/80325475/151675539-4ed8d934-b916-4426-9a7c-759eccf8f539.png)
+
+
+Źródło: https://scikit-learn.org/stable/auto_examples/cluster/plot_color_quantization.html#sphx-glr-auto-examples-cluster-plot-color-quantization-py
