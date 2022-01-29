@@ -28,8 +28,7 @@ Nasz input:
 
 
 
-Po skorzystaniu z Scikit-learn i skwantyzowaniu
-otrzymujemy to:
+Po skorzystaniu z Scikit-learn i skwantyzowaniu otrzymujemy :
 
 
 ![image](https://user-images.githubusercontent.com/80325475/151675564-34a8a17e-0377-45ff-a402-7a54ffd05209.png)
